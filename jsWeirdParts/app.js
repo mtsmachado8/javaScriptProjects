@@ -1,4 +1,4 @@
-async function waitThreeSeconds(){
+function waitThreeSeconds(){
 	let ms = 3000 + new Date().getTime();
 	while(new Date() < ms){}
 		console.log('finished function waitThreeSeconds');
