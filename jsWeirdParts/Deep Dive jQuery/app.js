@@ -1,2 +1,2 @@
-var q = $("ul.people li");
+var q = $("ul.people").addClass("newClass").removeClass("people");
 console.log(q);

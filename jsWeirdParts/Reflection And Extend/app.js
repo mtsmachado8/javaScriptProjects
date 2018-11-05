@@ -2,7 +2,7 @@ var person = {
     firstname: 'Default',
     lastname: 'Default',
     getFullName: function() {
-        return this.firstname + ' ' + this.lastname;  
+        return this.firstname + ' ' + this.lastname;
     }
 }
 
@@ -23,13 +23,13 @@ for (var prop in john) {
 var jane = {
     address: '111 Main St.',
     getFormalFullName: function() {
-        return this.lastname + ', ' + this.firstname;   
+        return this.lastname + ', ' + this.firstname;
     }
 }
 
 var jim = {
     getFirstName: function() {
-        return firstname;   
+        return firstname;
     }
 }
 
